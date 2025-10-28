@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Listing Webpage</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <!--Navigation section with Icons-->
+        <div class="container" id="container">
+            <h1>E'Kings</h1>
+            <button class="nav-toggle" aria-controls="primary-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="hamburger" aria-hidden="true"></span>
+            </button>
+            <nav>
+                <ul id="primary-nav">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#events">Events</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!--Main Content Section-->
+    <main>
+        <!--Hero section-->
+        <section id="home" class="hero">
+            <div class="container">
+                <h2>Welcome to Event's Kings</h2>
+                <p>Your one-stop destination for all the latest events happening around you.</p>
+                <a href="#events" class="btn primary" aria-label="Explore upcoming events">Explore Events</a>
+            </div>
+        </section>
+
+        <!--Events section-->
+        <section id="events">
+            <div class="container">
+                <h2>Upcoming Events</h2>
+                <div class="event-list">
+                 <article class="event-item" itemscope itemtype="http://schema.org/Event" aria-labelledby="music-concert-title">
+                     <header>
+                        <h3 id="music-concert-title" itemprop="name">Music Concert</h3>
+                        <p class="meta"><time itemprop="startDate" datetime="2024-08-10">August 10, 2024</time> <span class="dot">•</span> <span itemprop="location">City Arena</span></p>
+                    </header>
+                        <figure>
+                            <img src="images/concert.jpg" alt="Band performing on stage">
+                                <figcaption>Live at City Arena</figcaption>
+                                </figure>
+                                <p>Feel the rhythm, feel the beat! Join us for a high-energy concert experience that leaves you breathless. 
+                                    With popular hits and classic tunes, this is a night you won't forget.
+                                </p>
+                                <a href="#" class="btn secondary" role="button" aria-label="Attend Music Concert on August 10">Attend</a>
+                     </article>
+
+                <article class="event-item">
+                    <header>
+                        <h3>Art Exhibition</h3>
+                        <p class="meta"><time itemprop="startDate" datetime="2025-09-05">September 5, 2025</time> <span class="dot">•</span> <span itemprop="location">Downtown Gallery</span></p>
+                    </header>
+                    <figure>
+                        <img src="Images/art_exhibition.jpg" alt="Art Exhibition">
+                        <figcaption>Contemporary Art Showcase</figcaption>
+                    </figure>
+                        <p>Explore the world of contemporary art at our annual exhibition. Featuring works from
+                            renowned artists and emerging talents, this event is a must-visit for art enthusiasts.
+                        </p>
+                        <a href="#" class="btn secondary" role="button" aria-label="Attend Art Exhibition on September 5">Attend</a>
+                    </article>
+
+                <article class="event-item">
+                    <header>
+                       <h3>Food Festival</h3>
+                       <p class="meta"><time itemprop="startDate" datetime="2025-10-12">October 12, 2025</time> <span class="dot">•</span> <span itemprop="location">Central Park</span></p> 
+                    </header>
+                    <figure>
+                        <img src="Images/food_festival.jpg" alt="Food Festival">
+                        <figcaption>Global Cuisine Extravaganza</figcaption>
+                    </figure>
+                        <p>Indulge in a culinary adventure at our annual food festival. Sample dishes from
+                            around the world, enjoy live cooking demonstrations, and savor the flavors of
+                            diverse cuisines.</p>
+                        <a href="#" class="btn secondary" role="button" aria-label="Attend Food Festival on October 12">Attend</a>
+                </article>
+
+                <article class="event-item">
+                    <header>
+                        <h3>Tech Conference</h3>
+                        <p class="meta"><time itemprop="startDate" datetime="2024-11-20">November 20, 2024</time> <span class="dot">•</span> <span itemprop="location">Convention Center</span></p>
+                    </header>
+                    <figure>
+                        <img src="Images/tech_conference.jpg" alt="Tech Conference">
+                        <figcaption>Innovate and Inspire</figcaption>
+                    </figure>
+                        <p>Join industry leaders and innovators at our annual tech conference. Discover the
+                            latest trends, network with professionals, and gain insights into the future of
+                            technology.</p>
+                        <a href="#" class="btn secondary" role="button" aria-label="Attend Tech Conference on November 20">Attend</a>
+                </article>
+
+                <article class="event-item">
+                    <header>
+                        <h3>Food Festival</h3>
+                        <p class="meta"><time itemprop="startDate" datetime="2025-10-12">October 12, 2025</time> <span class="dot">•</span> <span itemprop="location">Central Park</span></p> 
+                    </header>
+                    <figure>
+                        <img src="Images/food_festival.jpg" alt="Food Festival">
+                        <figcaption>Global Cuisine Extravaganza</figcaption>
+                    </figure>
+                        <p>Indulge in a culinary adventure at our annual food festival. Sample dishes from
+                            around the world, enjoy live cooking demonstrations, and savor the flavors of
+                            diverse cuisines.</p>
+                        <a href="#" class="btn secondary" role="button" aria-label="Attend Food Festival on October 12">Attend</a>
+                </article>
+
+                <article class="event-item">
+                    <header>
+                        <h3>Tech Conference</h3>
+                        <p class="meta"><time itemprop="startDate" datetime="2025-11-20">November 20, 2025</time> <span class="dot">•</span> <span itemprop="location">Convention Center</span></p>
+                    </header>
+                    <figure>
+                        <img src="Images/tech_conference.jpg" alt="Tech Conference">
+                        <figcaption>Innovate and Inspire</figcaption>
+                    </figure>
+                        <p>Join industry leaders and innovators at our annual tech conference. Discover the
+                            latest trends, network with professionals, and gain insights into the future of
+                            technology.</p>
+                        <a href="#" class="btn secondary" role="button" aria-label="Attend Tech Conference on November 20">Attend</a>
+                </article>
+                </div>
+            </div>
+        </section>
+
+        <!--Contact Section-->
+        <section class="contact" id="contact">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <form action="#" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="event-select">Which Event are you Interested In:</label>
+                    <select id="event-select" name="events" required>
+                        <option value="music_concert">Music Concert</option>
+                        <option value="art_exhibition">Art Exhibition</option>
+                        <option value="food_festival">Food Festival</option>
+                        <option value="tech_conference">Tech Conference</option>
+                    </select>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+
+                    <button type="submit" class="btn primary">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <!--Footer Section-->
+    <footer>
+    <script>
+        // Mobile nav toggle: toggles .open on <nav> and adjusts aria-expanded
+        (function(){
+            var btn = document.querySelector('.nav-toggle');
+            var nav = document.querySelector('nav');
+            var menu = document.getElementById('primary-nav');
+            if(!btn || !nav || !menu) return;
+
+            btn.addEventListener('click', function(){
+                var expanded = this.getAttribute('aria-expanded') === 'true';
+                this.setAttribute('aria-expanded', String(!expanded));
+                nav.classList.toggle('open');
+                if(nav.classList.contains('open')){
+                    // allow smooth height transition
+                    menu.style.maxHeight = menu.scrollHeight + 'px';
+                } else {
+                    menu.style.maxHeight = null;
+                }
+            });
+
+            // Close menu when resizing to desktop
+            window.addEventListener('resize', function(){
+                if(window.innerWidth > 720){
+                    nav.classList.remove('open');
+                    menu.style.maxHeight = null;
+                    btn.setAttribute('aria-expanded', 'false');
+                }
+            });
+        })();
+
+        // Update CSS variable --header-offset so sections and main keep clear of the fixed header.
+        (function(){
+            var root = document.documentElement;
+            var header = document.querySelector('header');
+            if(!header || !root) return;
+
+            function updateHeaderOffset(){
+                var h = Math.ceil(header.getBoundingClientRect().height);
+                root.style.setProperty('--header-offset', h + 'px');
+            }
+
+            // initial
+            updateHeaderOffset();
+            // update on resize (debounced)
+            var t;
+            window.addEventListener('resize', function(){ clearTimeout(t); t = setTimeout(updateHeaderOffset, 120); });
+            // also observe mutations in header that may change size
+            try {
+                var mo = new MutationObserver(updateHeaderOffset);
+                mo.observe(header, { childList: true, subtree: true, attributes: true });
+            } catch(e){}
+        })();
+    </script>
+        <div class="container">
+            <!--Social medias-->
+            <div class="social-media">
+                <a href="#"><span class="fa fa-facebook"></span></a>
+                <a href="#"><span class="fa fa-twitter"></span></a>
+                <a href="#"><span class="fa fa-instagram"></span></a>
+                <a href="#"><span class="fa fa-linkedin"></span></a>
+            </div>
+            <p>&copy; 2024 Event's Kings | Julius Mt. All rights reserved.</p>
+        </div>
+    </footer>
+   
+</body>
+</html>
