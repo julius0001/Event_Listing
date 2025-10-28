@@ -10,36 +10,22 @@ A small static website that lists upcoming events. Designed for youth-oriented e
 
 ## Preview
 
-Open `index.html` in your browser. For a local server (recommended) you can use Python's simple server:
-
-```powershell
-# from the project folder (d:\Event_Listing)
-python -m http.server 8000
-# then open http://localhost:8000 in your browser
-```
+Open `index.html` in your browser. 
 
 Or use VS Code Live Server extension to preview and auto-reload.
 
 ## Customization
 
-- Hero image: replace `Images/hero.jpg` with your preferred image. Adjust `background-position` or `background-size` in `style.css` if needed.
+- Hero image
 - Colors: edit variables at the top of `style.css` (`:root`) — `--p`, `--s`, `--a`, `--bg`, `--text`, `--muted`.
 - Buttons: `.btn.primary` and `.btn.secondary` provide primary and accent styles.
-- Events: each event is an `<article class="event-item">`. Use `<time datetime="YYYY-MM-DD">` for machine-readable dates and `figure`/`figcaption` for images.
+- Events: each event is an `<article class="event-item">`.I have Use `<time datetime="YYYY-MM-DD">` for machine-readable dates and `figure`/`figcaption` for images.
 
 ## Accessibility & Notes
 
 - Headings follow a logical order (h1 → h2 → h3). Ensure you keep that structure when adding content.
 - Buttons and links have visible focus styles. Test with keyboard navigation.
 - Animations are subtle; if you need to disable them for reduced-motion users, add `@media (prefers-reduced-motion: reduce)` rules in `style.css`.
-
-## Next steps (suggested)
-
-- Add simple form validation & success messaging for the contact form.
-- Implement a mobile-friendly hamburger menu if you prefer not to stack nav links.
-- Replace microdata with JSON-LD for richer search results (events schema).
-
-If you want, I can add any of the above changes. Let me know which to implement next.
 
 ## Design choices (brief)
 
